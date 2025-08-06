@@ -95,6 +95,14 @@ The bot will start and be ready to use. Send the `/start` command to it in Teleg
 
 ---
 
+### ⚠️ Important
+
+-   For the QR code functionality (`cairosvg`) to work, you might need to install **additional system libraries**. On Debian/Ubuntu, you can do this with the following command:
+    ```bash
+    sudo apt-get update && sudo apt-get install -y libcairo2-dev
+    ```
+
+
 <a name="russian"></a>
 
 ## Русский (Russian)
@@ -182,3 +190,11 @@ python3 bot.py
 ```
 
 Бот будет запущен и готов к работе. Отправьте ему команду `/start` в Telegram.
+
+
+### ⚠️ Важно
+
+-   Для работы функций, связанных с QR-кодами (`cairosvg`), может потребоваться установка **дополнительных системных библиотек**. В Debian/Ubuntu это можно сделать следующей командой:
+    ```bash
+    sudo apt-get update && sudo apt-get install -y libcairo2-dev
+    ```
