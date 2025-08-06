@@ -14,6 +14,12 @@ A simple and convenient Telegram bot for managing clients on multiple **wg-easy*
 
 The bot allows an administrator to perform basic client operations directly from Telegram without accessing the web interface.
 
+### 🖼️ Screenshots
+
+| Server Selection | Main Menu | Client List |
+| :---: | :---: | :---: |
+| ![Server Selection](screenshots/01-server-selection.png) | ![Main Menu](screenshots/02-main-menu.png) | ![Client List](screenshots/03-client-list.png) | ![Download config](screenshots/04-config.png) |
+
 ### ✨ Features
 
 -   **Multi-Server Support**: Switch between servers with a single command.
@@ -96,6 +102,13 @@ The bot will start and be ready to use. Send the `/start` command to it in Teleg
 Простой и удобный Telegram-бот для управления клиентами на нескольких серверах **wg-easy**.
 
 Бот позволяет администратору выполнять основные операции с клиентами прямо из Telegram, не заходя в веб-панель.
+
+### 🖼️ Скриншоты
+
+| Выбор сервера | Главное меню | Список клиентов |
+| :---: | :---: | :---: |
+| ![Выбор сервера](screenshots/01-server-selection.png) | ![Главное меню](screenshots/02-main-menu.png) | ![Список клиентов](screenshots/03-client-list.png) | ![Скачать конфиг](screenshots/04-config.png) |
+
 
 ### ✨ Возможности
 
