@@ -51,11 +51,28 @@ DB_DIR = os.getenv("DB_DIR", "db")
 DEFAULT_SESSION_PASSWORD = os.getenv("SESSION_PASSWORD")
 
 # === СЕРВЕРЫ ===
-SERVERS = {
-        os.getenv("SERVER1_KEY"): {"name": os.getenv("SERVER1_NAME"), "url": os.getenv("SERVER1_URL")},
-        os.getenv("SERVER2_KEY"): {"name": os.getenv("SERVER2_NAME"), "url": os.getenv("SERVER2_URL")},
-        os.getenv("SERVER3_KEY"): {"name": os.getenv("SERVER3_NAME"), "url": os.getenv("SERVER3_URL")}
-}
+SERVERS = {}
+
+# Сервер 1
+key1 = os.getenv("SERVER1_KEY")
+name1 = os.getenv("SERVER1_NAME")
+url1 = os.getenv("SERVER1_URL")
+if key1 and name1 and url1:
+    SERVERS[key1] = {"name": name1, "url": url1}
+
+# Сервер 2
+key2 = os.getenv("SERVER2_KEY")
+name2 = os.getenv("SERVER2_NAME")
+url2 = os.getenv("SERVER2_URL")
+if key2 and name2 and url2:
+    SERVERS[key2] = {"name": name2, "url": url2}
+
+# Сервер 3
+key3 = os.getenv("SERVER3_KEY")
+name3 = os.getenv("SERVER3_NAME")
+url3 = os.getenv("SERVER3_URL")
+if key3 and name3 and url3:
+    SERVERS[key3] = {"name": name3, "url": url3}
 
 # === ДОПУСКАЕМЫЕ ПОЛЬЗОВАТЕЛИ ===
 allowed_users_str = os.getenv("ALLOWED_USERS", "")

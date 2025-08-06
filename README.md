@@ -131,7 +131,7 @@ cd tgbot-for-wireguard
 python3 -m venv venv
 
 # Активация (Linux/macOS)
-source vэ/bin/activate
+source venv/bin/activate
 
 # Активация (Windows)
 .\venv\Scripts\activate
