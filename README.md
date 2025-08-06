@@ -16,7 +16,7 @@ The bot allows an administrator to perform basic client operations directly from
 
 ### 🖼️ Screenshots
 
-| Server Selection | Main Menu | Client List |
+| Server Selection | Main Menu | Client List | Download config |
 | :---: | :---: | :---: |
 | ![Server Selection](screenshots/01-server-selection.png) | ![Main Menu](screenshots/02-main-menu.png) | ![Client List](screenshots/03-client-list.png) | ![Download config](screenshots/04-config.png) |
 
@@ -113,7 +113,7 @@ The bot will start and be ready to use. Send the `/start` command to it in Teleg
 
 ### 🖼️ Скриншоты
 
-| Выбор сервера | Главное меню | Список клиентов |
+| Выбор сервера | Главное меню | Список клиентов | Скачать конфиг |
 | :---: | :---: | :---: |
 | ![Выбор сервера](screenshots/01-server-selection.png) | ![Главное меню](screenshots/02-main-menu.png) | ![Список клиентов](screenshots/03-client-list.png) | ![Скачать конфиг](screenshots/04-config.png) |
 
